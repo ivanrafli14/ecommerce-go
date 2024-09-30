@@ -1,0 +1,38 @@
+app:
+  port:
+
+database:
+  db_user:
+  db_pass:
+  db_name:
+  db_host:
+  db_port:
+
+jwt:
+  secret_key:
+
+redis:
+  username:
+  password:
+
+cloudinary:
+  name:
+  api_key:
+  api_secret:
+
+meilisearch:
+  username:
+  api_key :
+
+mongodb:
+  uri:
+  database_name:
+  collection_name:
+
+payment_gateway:
+  secret_key:
+  webhook_token:
+  success_redirect_url:
+  failure_redirect_url:
+
+

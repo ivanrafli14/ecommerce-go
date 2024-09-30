@@ -1,0 +1,38 @@
+app:
+  port: 8080
+
+database:
+  db_user: "postgres"
+  db_pass: "admin123"
+  db_name: "ecommerce-golang"
+  db_host: "localhost"
+  db_port: 5433
+
+jwt:
+  secret_key: "rahasiayabang"
+
+redis:
+  username: "localhost:6379"
+  password: ""
+
+cloudinary:
+  name: "dukifna6a"
+  api_key: "369639831474139"
+  api_secret: "lTZrnxCKtxUMZctv3PhwXsQuc_8"
+
+meilisearch:
+  username: "http://localhost:7700"
+  api_key : "514afb20f95e0b7ab3349d253d2be73c9228f999b8f88eeb7a2ea2f3b060827f"
+
+mongodb:
+  uri: "mongodb://localhost:27017"
+  database_name: "ecommerce"
+  collection_name: "orders"
+
+payment_gateway:
+  secret_key: "xnd_development_ZD772EULSf1q5z08VBHL0dQ5Mt7HU8LR0qqjWTpSuUKu7cN56cEyFSWvo7jYlg"
+  webhook_token: "XfhTFdHSBFIChbRqZduIms4oYipvV82zbIPuf1N0iWTBjQb2"
+  success_redirect_url: "https://www.success.com/"
+  failure_redirect_url: "https://www.google.com/"
+
+
